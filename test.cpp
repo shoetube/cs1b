@@ -5,6 +5,7 @@ class classNode
 {
   public:
   void DoStuff(int int1 = 1, int int2 = 2);
+  
   private:
   int num1;
   int num2;
