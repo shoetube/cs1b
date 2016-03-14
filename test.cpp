@@ -22,10 +22,10 @@ int main()
 void classNode::DoStuff(int int1, int int2)
 {
   //Variables passed in  
-  classNode type;
   cout << int1 + int2 << endl;
-
-  // Next two parts use same variables and seem to work the same way.
+  
+  //Next two parts use same variables and seem to work the same way.
+  classNode type;
   num1 = 1;
   num2 = 2;
   sum = num1 + num2;
