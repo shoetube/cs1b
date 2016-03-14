@@ -25,12 +25,12 @@ void classNode::DoStuff(int int1, int int2)
   cout << int1 + int2 << endl;
   
   //Next two parts use same variables and seem to work the same way.
-  classNode type;
   num1 = 1;
   num2 = 2;
   sum = num1 + num2;
   cout << sum << endl;  
   
+  classNode type;
   type.num1 = 3;
   type.num2 = 4;
   sum = type.num1 + type.num2;
